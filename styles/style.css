@@ -7,8 +7,6 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 body {
@@ -21,6 +19,8 @@ body {
   align-items: center;
   flex-direction: column;
   object-fit: cover;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
