@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  position: relative;
+  background: url("../assets/background.jpg");
+  background-position: center;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  min-height: 100vh;
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+#container{
+  display: flex;
+  flex-direction: row;
+  font-size: 48px;
+}
+
+span{
+  background-image: linear-gradient(45deg, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF,#e002d2, #8B00FF, #4B0082);
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: moveGradient 8s infinite;
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+  
+img{
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+}
+
+#developer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 10px;
+  font-size: small;
+  color: beige;
+}
+
+a{
+  text-decoration: none;
+}
+
+#developer-name{
+    animation: changeColor 5s infinite; /* Change color over 5 seconds, repeat infinitely */
+}
+
+@keyframes changeColor {
+  0% {
+      color: red; /* Start with red color */
+  }
+  20% {
+      color: yellow; /* Change to yellow at 20% of animation */
+  }
+  40% {
+      color: greenyellow; /* Change to greenyellow at 40% of animation */
+  }
+  60% {
+    color: orange; /* Change to orange at 60% of animation */
+  }
+  80% {
+      color: deeppink; /* Back to deeppink at 80% of animation */
+  }
+  100% {
+    color: red; /* Back to red at the end of animation */
+  }
+}
