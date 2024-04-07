@@ -12,15 +12,16 @@ body{
   align-items: center;
   object-fit: cover;
   min-height: 100vh;
-  max-width: 100%;
   word-wrap: break-word;
-  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 #container{
   display: flex;
   flex-direction: row;
   font-size: 48px;
+  height: 100%;
 }
 
 span{
@@ -52,7 +53,7 @@ img{
 #developer{
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 10px;
   margin-right: 10px;
   font-size: small;
   color: beige;
