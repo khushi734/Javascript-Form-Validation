@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body{
@@ -13,8 +15,6 @@ body{
   object-fit: cover;
   min-height: 100vh;
   word-wrap: break-word;
-  margin: 0;
-  padding: 0;
 }
 
 #container{
