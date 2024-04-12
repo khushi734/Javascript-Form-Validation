@@ -53,7 +53,8 @@ img{
 #developer{
   position: absolute;
   right: 0;
-  bottom: 10px;
+  bottom: 0;
+  margin-bottom: 5px;
   margin-right: 10px;
   font-size: small;
   color: beige;
